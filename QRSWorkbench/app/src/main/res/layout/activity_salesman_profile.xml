@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SalesmanProfile">
+
+
+    <Button
+        android:id="@+id/activeCartsBtn"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:text="Active Carts" />
+
+
+    <Button
+        android:id="@+id/newCartBtn"
+        android:layout_width="150dp"
+        android:layout_height="51dp"
+        android:layout_above="@+id/activeCartsBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-147dp"
+        android:text="New Cart" />
+
+    <TextView
+        android:id="@+id/welcomes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/usnames"
+        android:text="Welcome"
+        android:textColor="@android:color/black"
+        android:textSize="21sp" />
+
+    <TextView
+        android:id="@+id/usnames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="58dp"
+        android:text="User!"
+        android:textColor="@android:color/black"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/productadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="productadd"
+        android:text="Add Product" />
+
+</RelativeLayout>
